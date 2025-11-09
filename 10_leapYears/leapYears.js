@@ -4,7 +4,7 @@ const leapYears = function(year) {
     // however, years divisible by 100 != leap years
     // unless they are divisible by 400
     if (year % 4 === 0) {
-        if (year % 100 === 0 && year) 
+        if (year % 100 === 0) 
         {
             if (year % 400 === 0) {
                 return true;
